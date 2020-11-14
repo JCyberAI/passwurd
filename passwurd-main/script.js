@@ -17,6 +17,10 @@ for (let i = 0; i < 9; i++) {
   var randomSC = Math.floor(Math.random() * specialCharacters.length);
 }
 
+for (let i = 0; i < 10; i++) {
+  var randomNumber = Math.floor(Math.random() * numbers.length);
+}
+
 // Write password to the #password input
 function writePassword() {
   var password = generatePassword();
