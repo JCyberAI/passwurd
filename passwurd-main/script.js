@@ -5,8 +5,16 @@ const lowercaseLetters = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k",
 const specialCharacters = ["!", "@", "#", "$", "%", "^", "&", "*", "(", ")"];
 const numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
 
-for (var i = 0; i < 25; i++){
+for (let i = 0; i < 25; i++) {
   var randomCL = Math.floor(Math.random() * capitalLetters.length);
+}
+
+for (let i = 0; i < 25; i++) {
+  var randomLL = Math.floor(Math.random() * lowercaseLetters.length);
+}
+
+for (let i = 0; i < 9; i++) {
+  var randomSC = Math.floor(Math.random() * specialCharacters.length);
 }
 
 // Write password to the #password input
