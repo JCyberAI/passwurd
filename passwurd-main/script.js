@@ -16,7 +16,7 @@ var randomChoices = [randomCL, randomLL, randomSC, randomNumber]
 
 
 /*Tried to create a function to grab random Captial Letters, Lowercase letters, Special Characters
-and numbers using the above index selection arrays the return*/
+and numbers using the above index selection arrays then return 8 of those randomly selected characters*/
 function generatePassword() {
   switch(choices) {
     case randomChoices:
