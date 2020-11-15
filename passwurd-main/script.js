@@ -15,15 +15,15 @@ var choices = [capitalLetters, lowercaseLetters, specialCharacters, numbers]
 var randomChoices = [randomCL, randomLL, randomSC, randomNumber]
 
 
-/*Function created to grab random Captial Letters, Lowercase letters, Special Characters
-and numbers from the above index selection arrays */
-function randomSelector() {
+/*Tried to create a function to grab random Captial Letters, Lowercase letters, Special Characters
+and numbers using the above index selection arrays the return*/
+function generatePassword() {
   switch(choices) {
     case randomChoices:
-     break;
+      return (8);
 }
 
-/*For-loops created to grab random Captial Letters, Lowercase letters, Special Characters
+/*Tried to create for-loops to grab random Captial Letters, Lowercase letters, Special Characters
 and numbers from the above variables */
 for (let i = 0; i < capitalLetters.length; i++) {
   console.log(capitalLetters[index]);
@@ -54,8 +54,10 @@ if (generateBtn) {
 console.log(generateBtn);
 
 // Write password to the #password input
+
 function writePassword() {
-  var password = passwordText();
+ // Tried to link generatePassword to the above function
+  var password = generatePassword();
   var passwordText = document.querySelector("#password");
 
   passwordText.value = password;
