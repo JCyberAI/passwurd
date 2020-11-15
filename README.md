@@ -1,1 +1,0 @@
-Using Javascript to run a password generator for a highly secure & uniqe password. Executung prompts to the user asking criteria before generating the password is the key to the uniqueness, high security comes from well put together Javascript.
